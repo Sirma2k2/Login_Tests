@@ -1,0 +1,57 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .registration label {
+    font-weight: bold;
+  }
+  
+  .registration input {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+  }
+
+  .hint {
+    font-size: 0.9rem;
+    color: #555;
+    margin: -8px 0 12px 0;
+  }
+  
+  .signup-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-button button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup-button button:hover {
+    background-color: #125aa3;
+  }
+  
